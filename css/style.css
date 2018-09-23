@@ -1,0 +1,67 @@
+.leftSection {
+    width: 450px;
+    /*background: rgba(155, 12, 12, 0.5);*/
+    float: left;
+}
+
+.rightSection {
+    width: calc(100% - 465px);
+    /*background: rgba(155, 0, 0, 0.5);*/
+    float: right;
+}
+
+figure {
+    float:left;
+    margin:15px;
+}
+
+figcaption {
+    padding:6px;
+}
+
+p {
+    padding:10px;
+}
+
+.feedbackForm {
+    width: 90%;
+    height: 30%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.textBlock {
+    padding-top:15px;
+}
+
+
+h2 {
+    border-bottom: 1px dashed black;
+    padding-bottom: 5px;
+}
+
+h3 {
+    
+}
+
+.buttonNext {
+    display:flex;
+    opacity:0.1;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    height:100%;
+    width:5%;
+    right:0px;
+    top:0px;
+}
+
+
+.buttonNext:hover {
+    opacity:1;
+    background: rgba(155, 12, 5, 0.3);
+    cursor: pointer;
+}
